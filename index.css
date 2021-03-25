@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    height: 76px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 28px 40px 17px 40px;
+}
+
+.lista {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.item-lista {
+    font-size: 18px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    border-bottom: 4px solid transparent;
+    cursor: pointer;
+}
+
+.item-lista:nth-child(2) {
+    margin: 0 40px
+}
+
+.item-lista:hover {
+    border-color: #5ecbfe;
+}
+
+.rede-social {
+    cursor: pointer;
+    }
+
+.rede-social:nth-child(1) {
+    margin-right: 40px;
+}
